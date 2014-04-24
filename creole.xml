@@ -1,0 +1,15 @@
+<!-- creole.xml Vinci -->
+<!-- Sanjay_Meena, 23/12/2013 -->
+
+<!-- This file just references the JAR file that contains the compiled resource. 
+	Configuration is contained in the @CreoleResource annotation on com.gate.plugin.Vinci. -->
+
+<CREOLE-DIRECTORY>
+
+	<!-- SCAN="true" tells CREOLE to look for the plugin in that jar file. -->
+	<JAR SCAN="true">GatePluginTutorial.jar</JAR>
+
+	<!-- Include all the required jar files dependencies here Example: <JAR>lib/dependent_libraries.jar</JAR> -->
+
+
+</CREOLE-DIRECTORY>
